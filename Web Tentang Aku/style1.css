@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+}
+
+.wrap {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(252, 177, 116);
+}
+
+header img {
+  margin: 30px 0px 30px 620px;
+  border-style: groove;
+  border-radius: 15px;
+}
+
+header h1 {
+  padding: 20px 0px 20px 0px;
+  font-family: cooper;
+  color: beige;
+  font-size: 60px;
+  text-align: center;
+  height: 90px;
+  background-color: #c26936;
+}
+
+section {
+  margin: 20px 30px 40px 20px;
+  padding: 20px 0px 20px 0px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: cambria;
+  color: #a31521;
+}
+
+section h3 {
+  font-size: 30px;
+  font-family: cambria;
+  color: #a31521;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-top: 20px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+section ol {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+footer {
+  margin: 3%;
+  text-align: center;
+}
+
+nav {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: rgb(224, 155, 115);
+  list-style: none;
+  margin: 0;
+  padding-top: -10px;
+  padding-left: 0;
+  width: 100%;
+  height: 55px;
+}
+
+ul li {
+  color: white;
+  background: rgb(224, 155, 115);
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+ul li a {
+  color: white;
+}
+
+ul li:hover {
+  background: rgb(179, 119, 84);
+  cursor: pointer;
+}
+
+ul ul {
+  display: none;
+  position: absolute;
+}
+
+ul li ul {
+  visibility: hidden;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: -56px;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+form {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+input {
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+}
+
+select {
+  font-size: 17px;
+}
+
+#sekolah {
+  border-style: outset;
+  margin: 20px 0px 20px 570px;
+}
+
+#cita {
+  border-style: outset;
+  margin: 20px 0px 20px 570px;
+}
+
+#gambar {
+  border-style: outset;
+  margin-left: 630px;
+  margin-top: 10px;
+}
+
+#gambar2 {
+  border-style: outset;
+  margin: 20px 0px 20px 630px;
+}
+
+#button {
+  color: white;
+  margin-left: 80rem;
+  background-color: rgb(180, 123, 69);
+  border: 2px solid rgb(255, 215, 183);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .wrap {
+    width: 100%;
+  }
+
+  header img {
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+  section img {
+    margin-left: 20px;
+  }
+
+  #gambar {
+    margin: 20px 0px 20px 30px;
+  }
+
+  #button {
+    margin-left: 20px;
+  }
+}
